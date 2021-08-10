@@ -1,10 +1,16 @@
 import React from 'react';
 
+import Hero from '../components/Hero';
+import Portfolio from '../components/Portfolio';
+import Footer from '../components/Footer';
+
 const Home = () => {
   return (
-    <section>
-      <h1>Home</h1>
-    </section>
+    <>
+      <Hero />
+      <Portfolio />
+      <Footer />
+    </>
   );
 };
 

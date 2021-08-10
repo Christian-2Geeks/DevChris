@@ -1,0 +1,32 @@
+.hero {
+  position: relative;
+  width: 100%;
+  padding: 4rem 3rem;
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+  &__container {
+    display: block;
+    width: 100%;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+  }
+  &__detail {
+    p {
+      margin: 1rem 0;
+      margin: 3rem;
+      font-size: 4rem;
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+  &__avatar {
+    div {
+      display: block;
+      width: 21rem;
+      height: 21rem;
+      margin: 0 auto;
+      border-radius: 50%;
+      background-color: $black-color;
+    }
+  }
+}

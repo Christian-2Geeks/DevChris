@@ -1,0 +1,20 @@
+// variables
+$principal-font: 'Roboto', sans-serif;
+$primary-color: #b721ff;
+$secondary-color: #21d4fd;
+$white-color: #f3f8f9;
+$black-color: #292a2c;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  font-family: $principal-font;
+  background-color: $white-color;
+}
